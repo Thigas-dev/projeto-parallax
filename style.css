@@ -1,0 +1,118 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Anton&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Anton&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Angkor&family=Anton&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kalam:wght@300;400;700&family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html , body{
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding-top:30px;
+}
+
+header > h1{
+    font-family: "Angkor", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 7vw;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.1em;
+}
+
+header a:hover{
+    text-decoration: underline;
+    color: white;
+}
+
+header p{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 1.2em;
+    padding-bottom: 40px;
+}
+
+section#p1{
+    background-image: url(imagens/background001.jpg);
+    background-position: right, center;
+ }
+
+ section#p2{
+    background: fixed rgb(0, 0, 0) url(imagens/background002.jpg) no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 10px black;
+ }
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-top: 50px;
+    font-family: "Kalam", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 2.5vw;
+}
+
+section.normal > h3{
+    padding-left: 80px;
+}
+
+
+section.lax{
+    color: white;
+    background-attachment: fixed;
+    background-size: cover;
+    box-shadow: inset 0px 0px 10px black;
+    padding-left: 50px;
+ }
+
+section.lax > h3{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.517);
+    min-width: 180px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 1.2em;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.2em;
+}
+
+footer a:hover{
+    text-decoration: underline;
+    color: white;
+}
